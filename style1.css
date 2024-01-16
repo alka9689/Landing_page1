@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 80vh;
+    width: 100%;
+    background-color: aqua;
+}
+#img1{
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+}
+.ticket{
+    position: absolute;
+    left: 85vw;
+    top: 1.5vh;
+    height: 5vh;
+    width: 13vw;
+    font-size: 1em;
+    border-radius: 20px;
+}
+.ticket:hover{
+    cursor: pointer;
+    color: gray;
+    scale: 1.1;
+}
+.section{
+    height: 60vh;
+    /* background-color: aquamarine; */
+    width: 100%;
+    position: relative;
+}
+.section1{
+    height: 50vh;
+    width: 60vw;
+    /* background-color: blue; */
+    position: absolute;
+    top: 4.5vh;
+    left: 20vw;
+    border: 2px solid gray;
+    border-radius: 40px;
+}
+/* .section:hover{
+    scale: 1.1;
+} */
+h1{
+    text-align: center;
+    padding-top: 2vh;
+    color: rgb(106, 239, 23);
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    padding-top: 2vh;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    padding-top: 5vh;
+   
+}
+.places{
+    height: 100vh;
+    /* background-color: rgb(188, 245, 247); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+.p1{
+    height: 30vh;
+    width: 25vw;
+    background-color: aqua;
+}
+.p2{
+    height: 30vh;
+    width: 25vw;
+    background-color: red;
+}
+.p3{
+    height: 30vh;
+    width: 25vw;
+    background-color: blue;
+}
+.p4{
+    height: 30vh;
+    width: 25vw;
+    background-color: palegoldenrod;
+}
+.p5{
+    height: 30vh;
+    width: 25vw;
+    background-color: pink;
+}
+.p6{
+    height: 30vh;
+    width: 25vw;
+    background-color: orange;
+}
+.images{
+    height: 30vh;
+    width: 25vw;
+
+}
+.images:hover{
+    scale: 1.1;
+}
+.view{
+    height: 5vh;
+    width: 6vw;
+    color: white;
+    background-color:rgb(106, 239, 23) ;
+    border: 2px solid white;
+    margin-left: 9vw;
+    margin-bottom: 10vh;
+}
+.view:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+h3{
+   margin-left: 8vw;
+   font-family: cursive;
+
+}
+.form{
+    height: 90vh;
+    background-color:wheat;
+    position: relative;
+}
+.area{
+    height: 70vh;
+    width: 40vw;
+    margin-left: 55vw;
+    /* background-color: aqua; */
+    padding-top: 15vh;
+    padding-left: 2vw;
+    position: relative;
+}
+td{
+    font-size: 2em;
+    font-family: cursive;
+    color:rgb(63, 63, 63) ;
+}
+input{
+    font-size: 0.7em;
+}
+.submit{
+     margin-top: 3vh;
+     margin-left: 10vw;
+    font-size: 1.2em;
+    width: 7vw;
+    background-color: rgb(106, 239, 23);
+    border: 1px solid gray;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+.note{
+    height: 50vh;
+    width: 30vw;
+    /* background-color: blue; */
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    border: 2px solid rgb(149, 149, 149);
+    border-radius: 30px;
+}
